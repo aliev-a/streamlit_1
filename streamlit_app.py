@@ -3,7 +3,7 @@ import pandas as pd  # импорт pandas для работы с таблица
 import numpy as np  # импорт numpy для численных операций
 import matplotlib.pyplot as plt  # импорт matplotlib для построения графиков
 from sklearn.datasets import fetch_california_housing  # загрузка датасета недвижимости Калифорнии
-from sklearn.ensemble import RandomForestRegressor  # модель случайного леса для регрессии
+from sklearn.ensemble import RandomForestRegressor  
 
 # ---------------------------
 # PAGE CONFIG
