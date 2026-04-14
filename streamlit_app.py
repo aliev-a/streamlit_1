@@ -13,3 +13,14 @@ def load_data():
     return X, y
 
 X, y = load_data()
+
+# ---------------------------
+# MODEL
+# ---------------------------
+@st.cache_resource
+def train_model():
+    model = RandomForestRegressor(n_estimators=150)
+    model.fit(X, y)
+    return model
+
+model = train_model()
