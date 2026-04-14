@@ -1,5 +1,4 @@
 import streamlit as st
 
 st.title('My first project')
-
-st.write('Hello world!')
+st.markdown("### Smart real estate valuation powered by Machine Learning")
