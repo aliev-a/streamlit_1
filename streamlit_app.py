@@ -30,7 +30,7 @@ X, y = load_data()  # получение данных
 # ---------------------------
 @st.cache_resource  # кэширование модели
 def train_model():
-    model = RandomForestRegressor(n_estimators=150)  # создание модели с 150 деревьями
+    model = RandomForestRegressor(n_estimators=50)  # создание модели с 150 деревьями
     model.fit(X, y)  # обучение модели
     return model  # возврат модели
 
