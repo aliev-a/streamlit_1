@@ -1,5 +1,6 @@
 import streamlit as st
 from sklearn.datasets import fetch_california_housing
+import pandas as pd
 
 st.title('My first project')
 st.markdown("### Smart real estate valuation powered by Machine Learning")
